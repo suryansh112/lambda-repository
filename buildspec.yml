@@ -1,0 +1,13 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-version: 
+      python: 3.12
+  build:
+    commands:
+    - echo "Zipping the lambda function"
+    - zip -r lambda.zip lambda
+  artifacts:
+    files:
+    - lambda_function.zip
