@@ -11,4 +11,3 @@ phases:
 artifacts:
   files:
   - lambda_function.zip
-  - lambda_cft.yml
