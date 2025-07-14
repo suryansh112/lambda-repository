@@ -21,7 +21,7 @@ Resources:
         Type: AWS::Lambda::Function
         Properties:
           FunctionName: test-lambda
-          Runtime: python3.12
+          Runtime: python3.13
           Handler: lambda_function.lambda_handler
           Role: !GetAtt LambdaExecutionRole.Arn
           Code:
