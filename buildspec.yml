@@ -8,6 +8,6 @@ phases:
     commands:
     - echo "Zipping the lambda function"
     - zip -r lambda.zip lambda
-  artifacts:
-    files:
-    - lambda_function.zip
+artifacts:
+  files:
+  - lambda_function.zip
