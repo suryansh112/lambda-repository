@@ -26,5 +26,5 @@ Resources:
           Role: !GetAtt LambdaExecutionRole.Arn
           Code:
             S3Bucket: suryansh-jark-bucket
-            S3Key: lambda-test/lambda_function.zip
+            S3Key: lambda-test-project/lambda_function.zip
           Timeout: 900
