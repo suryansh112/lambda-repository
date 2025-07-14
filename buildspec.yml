@@ -7,7 +7,7 @@ phases:
   build:
     commands:
     - echo "Zipping the lambda function"
-    - zip -r lambda.zip lambda
+    - zip -r lambda_function.zip lambda
 artifacts:
   files:
   - lambda_function.zip
